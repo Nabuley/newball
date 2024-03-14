@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>공 발사 시뮬레이션</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="input-area">
+    <label for="angle">각도(도): </label>
+    <input type="number" id="angle" min="0" max="90">
+    <label for="speed">속도(m/s): </label>
+    <input type="number" id="speed" min="0">
+    <label for="angle">프레임 속도(낮을수록 빠름): </label>
+    <input type="number" id="frameSpeed" min="50">
+    <label for="angle">중력가속도: </label>
+    <input type="number" id="gravity" max="50">
+    <button onclick="launchBall()">발사!</button>
+    <button onclick="creadit()">(만든이)</button>
+</div>
+<div id="field"></div>
+<script src="script.js"></script>
+</body>
+</html>
