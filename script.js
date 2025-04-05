@@ -1,4 +1,5 @@
 //t1 = (v0*sin(angle)-root(v0**2-2gh))/g
+/*만든이 : 노윤호*/
 function launchBall() {
     var angle = document.getElementById("angle").value || 45;
     var speed = document.getElementById("speed").value || 300;
@@ -100,5 +101,5 @@ function launchBall() {
     moveBall();
 }
 function creadit(){
-    alert("Maker: Nabuley & Forever.\nCalculating: Forever\nProgramming: Nabuley");
+    alert("Maker: Nabuley & Forever.\nCalculating: Forever, Nabuley\nProgramming: Nabuley");
 }
